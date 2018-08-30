@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "inst": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 yarn install"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "jest": "^23.5.0",
+    "puppeteer": "^1.7.0",
+    "rimraf": "^2.6.2"
+  }
+}
